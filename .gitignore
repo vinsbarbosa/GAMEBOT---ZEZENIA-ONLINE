@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# PyInstaller (build gerado localmente)
+build/
+dist/
+*.spec
+
+# Arquivos de debug gerados em runtime
+debug_*.png
+
+# Configuração local do usuário (contém regiões calibradas de cada PC)
+config.json
+
+# Preferência de idioma local
+lang.txt
+
+# Prints/markers (imagens do jogo - podem ser pesadas ou ter copyright)
+# Descomente a linha abaixo se NÃO quiser subir as imagens:
+# prints/
+
+# Profiles e rotas do usuário (dados pessoais de jogo)
+profiles/
+routes/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+Thumbs.db
+Desktop.ini
